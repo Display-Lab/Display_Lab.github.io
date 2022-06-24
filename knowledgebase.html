@@ -6,12 +6,12 @@
 -->
 <html>
 	<head>
-		<title>Left Sidebar - ZeroFour by HTML5 UP</title>
+		<title>Right Sidebar - ZeroFour by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
-	<body >
+	<body class="right-sidebar is-preload">
 		<div id="page-wrapper">
 
 			<!-- Header Wrapper -->
@@ -30,7 +30,7 @@
 									<!-- Nav -->
 										<nav id="nav">
 											<ul>
-												<li><a href="index.html">Home</a></li>
+												<li ><a href="index.html">Home</a></li>
 												<li>
 													<a href="#">About US</a>
 													<ul>
@@ -41,7 +41,7 @@
 												
 												</li>
 												<li>
-													<a href="#">Our Works</a>
+													<a href="#">Our Work</a>
 													<ul>
 														<li><a href="projects.html">Projects </a></li>
 														<li class="current_page_item"><a href="knowledgebase.html">Knowledge Base</a></li>
@@ -57,7 +57,6 @@
 													</ul>
 												</li>
 												<li><a href="contact.html">Contact</a></li>
-												
 											</ul>
 										</nav>
 
@@ -73,107 +72,120 @@
 						<div class="inner">
 							<div class="container">
 								<div class="row">
-									
-									
-
-											
+									<div class="col-8 col-12-medium">
+										<div id="content">
 
 											<!-- Content -->
 
 												<article>
 													<header class="major">
-														<h2>Knowledge Base</h2>
-														<p>Tag line for knowledge base </p>
+														<h2>Feedback Tailor Knowledge Base</h2>
+														<p>The Feedback Tailor Knowledge Base is a set of theoretical statements about how performance feedback messages influence behavior.</p>
 													</header>
 
-													<span class="image featured"><img src="images/pic08.jpg" alt="" /></span>
+													<span class="image featured"><img src="images/knowledgebase.png" alt="" /></span>
 
-													<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
-													Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
-													Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
-													consequat etiam lorem ipsum dolor sit amet nullam.</p>
+													<p>DISPLAY Lab is developing a knowledgebase to support automated message tailoring for clinical performance communication. The knowledgebase contains computer-interpretable description of resources for message tailoring and knowledge that is used to tailor messages. The key types of knowledge in the knowledgebase are:</p>
+														<li>1) How feedback messages work (causal pathway models), and </li>
+														<li>2)Information content of performance communication (performance levels, gaps, and trends)</li>
+														<li>3)Form of performance communication (message template library)</li>
+													<h3>BackGround</h3>
+													
+														
+														
+														
+													</p>Three ontologies are used to define and describe the elements of performance communication that are referenced in the knowledgebase. The Performance Summary Display Ontology (PSDO) defines the information content and form of performance communication. The Causal Pathway Ontology (CPO) defines the parts of a causal pathway model and their influence process. A third ontology functions as contains in-process working definitions and relationships that are important for message tailoring, but not yet well-defined enough to be placed in another ontology, called the Somewhat Lackadaisically Organized Working Miscellaneous Ontology (SLOWMO).
 
-													<h3>More intriguing information</h3>
-													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus
-													justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem felis,
-													ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet
-													vulputate. Nulla quis nibh ipsum, sed egestas justo. Morbi ut ante mattis orci convallis tempor.
-													Etiam a lacus a lacus pharetra porttitor quis accumsan odio. Sed vel euismod nisi. Etiam convallis
-													rhoncus dui quis euismod. Maecenas lorem tellus, congue et condimentum ac, ullamcorper non sapien.
-													Donec sagittis massa et leo semper a scelerisque metus faucibus. Morbi congue mattis mi.
-													Phasellus sed nisl vitae risus tristique volutpat. Cras rutrum commodo luctus.</p>
+													The content of the knowledgebase is displayed below, generated directly from computer-interpretable statements encoded in JSON. This page displays the work-in-progress content of the most recent version of the knowledgebase.</p>
+														
+													
 
 													
 												</article>
+												<footer>
+													<a href="https://github.com/Display-Lab/knowledge-base/blob/master/readme.md" class="button icon solid" >Learn More</a>
+												</footer>
 
-										
-									
+										</div>
+									</div>
+									<div class="col-4 col-12-medium">
+										<div id="sidebar">
+
+											<!-- Sidebar -->
+											<div class="inner">
+												<div class="container">
+													<div class="row">
+														
+					
+															<!-- Article list -->
+																<section class="box article-list">
+																	<h2 class="icon fa-file-alt">Knowledgebase </h2>
+					
+																	<!-- Excerpt -->
+																		<article class="box excerpt">
+																			
+																			<div>
+																				<header>
+																					
+																					<h3><a href="">The Performance Summary Display Ontology (PSDO)</a></h3>
+																				</header>
+																				<p>Performance Summary Display Ontology (PSDO) (pronounced "pseudo" or "sudo") is an application ontology about information content and visual elements that are used to communicate performance information to employees and teams in organizations</p>
+																			</div>
+																			<footer>
+																				<a href="https://github.com/Display-Lab/psdo/blob/master/README.md" class="button icon solid" >Learn More</a>
+																			</footer>
+																		</article>
+					
+																	<!-- Excerpt -->
+																		<article class="box excerpt">
+																			
+																			<div>
+																				<header>
+																					
+																					<h3><a href="#">The Causal Pathway Ontology (CPO)</a></h3>
+																				</header>
+																				<p>Casual Pathway Ontology (CPO) is an application ontology about mechanisms that participate in digital health interventions.</p>
+																			</div>
+																			<footer>
+																				<a href="https://github.com/Display-Lab/cpo/blob/master/README.md" class="button icon solid" >Learn More</a>
+																			</footer>
+																		</article>
+					
+																	<!-- Excerpt -->
+																		<article class="box excerpt">
+																			
+																			<div>
+																				<header>
+																					
+																					<h3><a href="https://github.com/Display-Lab/think-pudding/blob/master/readme.md">Somewhat Lackadaisically Organized Working Miscellaneous Ontology (SLOWMO)</a></h3>
+																				</header>
+																				<p>slowmo is an ontology-like structure used to inform various components of the Display Lab's Tailored Performance Feedback System.</p>
+																			</div>
+																			<footer>
+																				<a href="https://github.com/Display-Lab/slowmo/blob/master/README.md" class="button icon solid" >Learn More</a>
+																			</footer>
+																		</article>
+					
+																</section>
+														
+														
+					
+					
+														</div>
+													</div>
+												</div>
+											</div>
+												
+
+
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="wrapper style3">
-						<div class="inner">
-							<div class="container">
-								<div class="row">
-									<div class="col-8 col-12-medium">
-
-										<!-- Article list -->
-											<section class="box article-list">
-												<h2 class="icon fa-file-alt">Recent work in knowledge base</h2>
-
-												<!-- Excerpt -->
-													<article class="box excerpt">
-														<a href="#" class="image left"><img src="images/pic04.jpg" alt="" /></a>
-														<div>
-															<header>
-																<span class="date">July 24</span>
-																<h3><a href="#">Repairing a hyperspace window</a></h3>
-															</header>
-															<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus
-															semper mod quisturpis nisi consequat etiam lorem. Phasellus quam turpis,
-															feugiat et sit amet ornare in, hendrerit in lectus semper mod quis eget mi dolore.</p>
-														</div>
-													</article>
-
-												<!-- Excerpt -->
-													<article class="box excerpt">
-														<a href="#" class="image left"><img src="images/pic05.jpg" alt="" /></a>
-														<div>
-															<header>
-																<span class="date">July 18</span>
-																<h3><a href="#">Adventuring with a knee injury</a></h3>
-															</header>
-															<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus
-															semper mod quisturpis nisi consequat etiam lorem. Phasellus quam turpis,
-															feugiat et sit amet ornare in, hendrerit in lectus semper mod quis eget mi dolore.</p>
-														</div>
-													</article>
-
-												<!-- Excerpt -->
-													<article class="box excerpt">
-														<a href="#" class="image left"><img src="images/pic06.jpg" alt="" /></a>
-														<div>
-															<header>
-																<span class="date">July 14</span>
-																<h3><a href="#">Preparing for Y2K38</a></h3>
-															</header>
-															<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus
-															semper mod quisturpis nisi consequat etiam lorem. Phasellus quam turpis,
-															feugiat et sit amet ornare in, hendrerit in lectus semper mod quis eget mi dolore.</p>
-														</div>
-													</article>
-
-											</section>
-									</div>
-									<div class="col-4 col-12-medium">
-
-									
-
-									</div>
-								</div>
-							</div>
-						</div>
+						
 					</div>
 				</div>
 
@@ -184,13 +196,13 @@
 							<div class="col-3 col-6-medium col-12-small">
 
 								<!-- Links -->
-								
+									
 
 							</div>
 							<div class="col-3 col-6-medium col-12-small">
 
 								<!-- Links -->
-								
+									
 
 								<!-- Links -->
 								
@@ -199,43 +211,42 @@
 							<div class="col-6 col-12-medium imp-medium">
 
 								<!-- About -->
-								
+									
 
 								<!-- Contact -->
-									<section>
-										<section>
-											<h2>Get in touch</h2>
-											<div>
-												<div class="row">
-													<div class="col-6 col-12-small">
-														<dl class="contact">
-															<dt>Twitter</dt>
-															<dd><a href="#">@untitled-corp</a></dd>
-															<dt>Facebook</dt>
-															<dd><a href="#">facebook.com/untitled</a></dd>
-															<dt>WWW</dt>
-															<dd><a href="#">untitled.tld</a></dd>
-															<dt>Email</dt>
-															<dd><a href="#">user@untitled.tld</a></dd>
-														</dl>
-													</div>
-													<div class="col-6 col-12-small">
-														<dl class="contact">
-															<dt>Address</dt>
-															<dd>
-																Department of Learning Health Sciences </br>
-																300 N. Ingalls St. </br>
-																1161 NIB </br>
-																Ann Arbor, MI 48109-5403 </br>
-		
-															</dd>
-															<dt>Phone</dt>
-															<dd>(000) 000-0000</dd>
-														</dl>
-													</div>
-												</div>
+								<section>
+									<h2>Get in touch</h2>
+									<div>
+										<div class="row">
+											<div class="col-6 col-12-small">
+												<dl class="contact">
+													<dt>Twitter</dt>
+													<dd><a href="#">@untitled-corp</a></dd>
+													<dt>Facebook</dt>
+													<dd><a href="#">facebook.com/untitled</a></dd>
+													<dt>WWW</dt>
+													<dd><a href="#">untitled.tld</a></dd>
+													<dt>Email</dt>
+													<dd><a href="#">user@untitled.tld</a></dd>
+												</dl>
 											</div>
-										</section>
+											<div class="col-6 col-12-small">
+												<dl class="contact">
+													<dt>Address</dt>
+													<dd>
+														Department of Learning Health Sciences </br>
+														300 N. Ingalls St. </br>
+														1161 NIB </br>
+														Ann Arbor, MI 48109-5403 </br>
+
+													</dd>
+													<dt>Phone</dt>
+													<dd>(000) 000-0000</dd>
+												</dl>
+											</div>
+										</div>
+									</div>
+								</section>
 
 							</div>
 							<div class="col-12">
